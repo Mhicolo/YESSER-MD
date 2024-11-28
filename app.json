@@ -1,5 +1,5 @@
 {
-  "name": "YESSER MD",
+  "name": "MHICOLO MD",
   "description": "Best Whatsapp bot made by yessertech",
   "keywords": [
     "whatsapp bot"
@@ -14,8 +14,8 @@
     },
     "MODE": {
       "description": "Enter true for public. false for private",
-      "required": true,
-      "value": "public"
+      "required": false,
+      "value": "private"
     },
     "AUTO_STATUS_SEEN": {
       "description": "Enter true for autoview status. false for no",
@@ -39,7 +39,7 @@
     },
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "AUTO_BLOCK": {
